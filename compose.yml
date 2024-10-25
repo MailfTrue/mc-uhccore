@@ -13,7 +13,8 @@ services:
       TYPE: PAPER
       MC_VERSION: "1.20.5"
     volumes:
-      - mc-data:/papermc/
+      - ./server:/papermc/
+      # - mc-data:/papermc/
       # - ./server/plugins:/papermc/plugins/
 
 
