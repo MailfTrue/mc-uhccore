@@ -14,8 +14,6 @@ services:
       MC_VERSION: "1.20.5"
     volumes:
       - ./server:/papermc/
-      # - mc-data:/papermc/
-      # - ./server/plugins:/papermc/plugins/
 
 
 volumes:

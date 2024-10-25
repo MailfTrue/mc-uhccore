@@ -1,7 +1,4 @@
-data/
 .DS_Store
 
 .*
-server/plugins/dynmap/*
-!server/plugins/dynmap/texturepacks
-server/plugins/ProtocolLib/last_update
+server/plugins/dynmap/
