@@ -23,15 +23,15 @@ custom-crafts:
 
   # Example of item that when crafted will revive a team member.
   # Remove '#' symbols to enable.
-  #'Team Revive':
-  #  '1': '{"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"}'
-  #  '2': '{"type":"GOLD_BLOCK"} {"type":"DIAMOND_BLOCK"} {"type":"GOLD_BLOCK"}'
-  #  '3': '{"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"}'
-  #  craft: '{"type":"NETHER_STAR","lore":["&7Craft this item to revive a dead team member"]}'
-  #  default-name: false
-  #  revive-item: true
-  #  revive-with-inventory: true
-  #  limit: -1
+  'Team Revive':
+   '1': '{"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"}'
+   '2': '{"type":"GOLD_BLOCK"} {"type":"DIAMOND_BLOCK"} {"type":"GOLD_BLOCK"}'
+   '3': '{"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"} {"type":"GOLD_BLOCK"}'
+   craft: '{"type":"NETHER_STAR","lore":["&7Craft this item to revive a dead team member"]}'
+   default-name: false
+   revive-item: true
+   revive-with-inventory: true
+   limit: -1
 
 #A list of items that you don't want players to be able to craft
 # Please respect the json-item syntax! (You can use the /iteminfo command to generate this syntax.)

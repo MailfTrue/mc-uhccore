@@ -45,7 +45,7 @@ enable-team-names: true
 time-to-start-when-ready: 15
 
 #The time in seconds before the PVP starts
-time-before-pvp: 600
+time-before-pvp: 0
 
 # When enabled players of the same team will be able to damage each other.
 enable-friendly-fire: false
@@ -200,7 +200,7 @@ customize-game-behavior:
 
   # Set it to true to allow droping a player head when a player dies
   # Eating the head regenerates your team for 5 seconds
-  add-regen-head-drop-on-player-death: false
+  add-regen-head-drop-on-player-death: true
   # Set this to true to double the health given to your team.
   double-regen-head: false
 
@@ -437,7 +437,7 @@ spectating-teleport: true
 # It's highly recommended you enable this for big games!
 pre-generate-world:
   # If set to true, the plugin will generate every chunks inside the world border to prevent lag during the game
-  enable: false
+  enable: true
 
   # Between what number of chunks the server will rest to avoid server crashing
   rest-every-num-of-chunks-ticks: 200
@@ -466,7 +466,7 @@ border:
 # Setting up the deathmatch
 deathmatch:
   # Set it to false to make an endless game until one team wins
-  enable: true
+  enable: false
   # The time in seconds before the deathmatch starts
   delay: 3600
   # The time in seconds before PvP is enabled and players are released after the deathmatch starts
