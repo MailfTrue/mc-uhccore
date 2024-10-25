@@ -55,6 +55,8 @@ waiting:
 playing:
   - '&6Meetup: &a%deathmatch%'
   - '&6%timer-name%: &a%timer-time%'
+  - '&6%timers%'
+  - '&6PVP: %pvp%'
   - '&6Border: &a%border%'
   - '&6Kills: &a%kills%'
   - '&6Players left: &a%alive%'
@@ -77,6 +79,8 @@ deathmatch:
 spectating:
   - '&6Meetup: &a%deathmatch%'
   - '&6%timer-name%: &a%timer-time%'
+  - '&6%timers%'
+  - '&6PVP: %pvp%'
   - '&6Border: &a%border%'
   - '&6Kills: &a%kills%'
   - '&6Players left: &a%alive%'
