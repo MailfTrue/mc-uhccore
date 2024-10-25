@@ -35,7 +35,7 @@ force-assign-solo-player-to-team-when-starting: false
 prevent-player-from-leaving-team: false
 
 #Forces the teams to be always ready, thus preventing afk players from blocking the beginning of the game
-team-always-ready: true
+team-always-ready: false
 
 # Set to false if you don't want players to be able to rename their teams.
 enable-team-names: true
@@ -62,7 +62,7 @@ can-join-as-spectator: true
 
 # Set it to false to block spectators from sending messages in global chat. (Players with the permission 'uhc-core.chat.override' will still be able to in global chat)
 # They will appear in a separate spectator chat only visible for other spectators.
-can-send-messages-after-death: true
+can-send-messages-after-death: false
 
 # Chat prefix, when enabled, messages starting with @ will display in team chat, when starting with ! they will be displayed in global chat.
 # This means players don't have to use /chat to toggle between team and global chat each time.
@@ -414,12 +414,12 @@ enable-kits-permissions: false
 #Options to configure the playing compass
 playing-compass:
   #If set to false the playing compass will be removed from the game.
-  enable: false
+  enable: true
   #Compass mode:
   # 1 = The compass will point towards teammates when right-clicking it
   # 2 = The compass will point towards enemy's when right-clicking it
   # 3 = The compass will point towards all players when right-clicking it
-  mode: 1
+  mode: 3
   #How much seconds cool-down there should be between clicking the compass. (Set to -1 to disable)
   cooldown: 1
 
@@ -451,13 +451,13 @@ border:
   moving: true
 
   #Starting size of the border (500 means +500x, -500x, +500z, -500z)
-  start-size: 500
+  start-size: 100
 
   #End size of the border (200means +200x, -200x, +200z, -200z)
-  end-size: 200
+  end-size: 20
 
   #If moving is set to true, the time in seconds for the border to shrink to end-size
-  time-to-shrink: 3600
+  time-to-shrink: 300
 
   #If moving is set to true, the time in seconds for the border before it starts moving
   time-before-shrink: 0
