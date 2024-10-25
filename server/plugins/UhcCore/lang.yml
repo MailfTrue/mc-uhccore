@@ -49,7 +49,8 @@ command:
   chat-team: '&aТеперь вы говорите с командой'
   chat-help: '&7Введите ''/chat'' или ''/c'' для переключения глобального чата'
   chat-error: '&cВы можете использовать эту команду только во время игры'
-  spectating-help: Используйте '/teleport <player>', чтобы телепортироваться к играющему игроку
+  spectating-help: Используйте '/teleport <player>', чтобы телепортироваться к играющему
+    игроку
   spectating-teleport: '&aТелепорт к %player%'
   spectating-teleport-error: '&cВы не можете телепортироваться к этому игроку'
   recipes-error: '&cВ этой игре нет пользовательских рецептов.'
@@ -109,18 +110,21 @@ team:
     leave-as-leader: '&aВы покинули свою команду, %newleader% будет новым лидером'
     leave-as-player: '&aВы покинули команду'
     player-leaves: '&a%player% покинул команду'
-    leader-leaves: '&aЛидер команды %leader% покинул команду, %newleader% стал новым лидером'
+    leader-leaves: '&aЛидер команды %leader% покинул команду, %newleader% стал новым
+      лидером'
     cant-leave: '&cВы не можете покинуть свою команду, вы один.'
     deny-request: '&cЗапрос отклонен.'
     spectators-cannot-join: '&cНаблюдатели не могут присоединиться к команде'
     no-longer-exists: '&cЭта команда больше не существует.'
     invite-already-sent: '&cВы уже отправили приглашение %player%'
     invite-success: '&a%player% был приглашен в команду'
-    invite-receive: '&aВы получили приглашение в команду %name%, вы можете ответить на приглашение в меню команды.'
+    invite-receive: '&aВы получили приглашение в команду %name%, вы можете ответить
+      на приглашение в меню команды.'
     invite-receive-hover: '&aНажмите, чтобы ответить'
     already-in-team: '&c%player% уже в команде.'
     player-already-in-team: '&c%player% уже в команде'
-    full: '&c%player% не может присоединиться к команде %leader%, так как команда полна (%limit% игроков)'
+    full: '&c%player% не может присоединиться к команде %leader%, так как команда
+      полна (%limit% игроков)'
     color-already-selected: '&cВы уже выбрали этот цвет.'
     color-changed: '&aЦвет вашей команды успешно изменен.'
     name-changed: '&aИмя вашей команды успешно изменено.'
@@ -131,8 +135,10 @@ items:
   team-list: '&9Щелкните правой кнопкой мыши, чтобы посмотреть команды'
   sword: '&bЩелкните правой кнопкой мыши, чтобы выбрать свою команду'
   bungee: '&cЩелкните правой кнопкой мыши, чтобы вернуться в Хаб'
-  regen-head: '&cЩелкните правой кнопкой мыши, чтобы регенерировать свою команду на 5 секунд'
-  regen-head-action: '&aВы получаете эффект регенерации на 5 секунд за съедение головы игрока'
+  regen-head: '&cЩелкните правой кнопкой мыши, чтобы регенерировать свою команду на
+    5 секунд'
+  regen-head-action: '&aВы получаете эффект регенерации на 5 секунд за съедение головы
+    игрока'
   golden-head:
     skull-name: '&6Голова %player%'
     skull-help: '&eСоедините голову с золотом, чтобы получить золотую голову.'
@@ -141,7 +147,8 @@ items:
   compass-playing: '&aЩелкните правой кнопкой мыши, чтобы указать на товарища по команде'
   compass-playing-error: '&cНет играющих товарищей по команде, на которых можно указать.'
   compass-playing-cooldown: '&cВы щёлкаете компасом слишком быстро, подождите!'
-  compass-playing-pointing: '&aУказание на последнее местоположение %player% (%distance% блоков)'
+  compass-playing-pointing: '&aУказание на последнее местоположение %player% (%distance%
+    блоков)'
   kit-selection: '&aЩелкните правой кнопкой мыши, чтобы выбрать набор'
   kit-inventory: '&2Выбор набора'
   kit-selected: '&aВы выбрали набор %kit%'
@@ -149,7 +156,8 @@ items:
   kit-scoreboard-no-kit: Набор не выбран
   craft-no-permission: '&cУ вас нет разрешения на создание %craft%'
   craft-crafted: '&aВы создали %craft%'
-  craft-left-click: '&cВы можете создавать только по одному %craft% за раз (левая кнопка мыши).'
+  craft-left-click: '&cВы можете создавать только по одному %craft% за раз (левая
+    кнопка мыши).'
   craft-limit: '&cВы использовали все свои %limit% %craft% рецептов.'
   craft-book: '&dЩелкните правой кнопкой мыши, чтобы увидеть пользовательские крафты'
   craft-book-inventory: '&2Пользовательские крафты'
@@ -161,7 +169,8 @@ pvp:
   enabled: PvP включен!
   start-in: PvP начнется через
 event:
-  time-reward: '&eВы получили %money% на ваш счет за игру %time%, общее время игры %totaltime%'
+  time-reward: '&eВы получили %money% на ваш счет за игру %time%, общее время игры
+    %totaltime%'
   kill-reward: '&eВы получили %money% на ваш счет за убийство игрока'
   win-reward: '&eВы получили %money% на ваш счет за победу в игре'
 scenarios:
@@ -235,7 +244,8 @@ scenarios:
     - Если игрок получает урон, он будет удален из списка.
     - Если вы убиваете игрока, вы снова добавляетесь в список.
     added: '&4[Best PvE] &aВы добавлены в список PvE.'
-    removed: '&4[Best PvE] &cВы исключены из списка PvE. Получение убийства добавит вас обратно в список.'
+    removed: '&4[Best PvE] &cВы исключены из списка PvE. Получение убийства добавит
+      вас обратно в список.'
     back: '&4[Best PvE] &aВы добавлены обратно в список PvE.'
   triple_ores:
     name: Triple Ores
@@ -248,7 +258,8 @@ scenarios:
   team_inventory:
     name: Team Inventory
     description:
-    - Каждая команда имеет дополнительный инвентарь, к которому все члены команды могут получить доступ, используя /teaminventory.
+    - Каждая команда имеет дополнительный инвентарь, к которому все члены команды
+      могут получить доступ, используя /teaminventory.
     error: '&cВы можете открывать инвентарь команды только во время игры!'
     disabled: '&cИнвентарь команды в данный момент отключен!'
     open: '&aОткрытие командного инвентаря...'
@@ -265,7 +276,8 @@ scenarios:
     name: Hastey Boys
     description:
     - Каждое создаваемое вами орудие будет иметь эффективность 3 и вечность 1
-    grindstone-error: '&4[Hastey Boys] &cВы не можете снять чары с орудий "Hastey Boys".'
+    grindstone-error: '&4[Hastey Boys] &cВы не можете снять чары с орудий "Hastey
+      Boys".'
   lucky_leaves:
     name: Lucky Leaves
     description:
@@ -312,11 +324,13 @@ scenarios:
   fast_leaves_decay:
     name: Fast Leaves Decay
     description:
-    - В этом сценарии после разрушения всех бревен дерево листья исчезают в течении секунд
+    - В этом сценарии после разрушения всех бревен дерево листья исчезают в течении
+      секунд
   sky_high:
     name: Sky High
     description:
-    - В этом сценарии через 30 минут вы начнете получать урон каждые 30 секунд, если не находитесь выше y=120
+    - В этом сценарии через 30 минут вы начнете получать урон каждые 30 секунд, если
+      не находитесь выше y=120
     damage: '&4[Sky High] &cВы получаете урон за нахождение ниже y=120'
   fast_smelting:
     name: Fast Smelting
@@ -326,4 +340,86 @@ scenarios:
     name: Superheroes
     description:
     - Каждый игрок получает уникальную суперспособность.
-    - Суперспособности включают Скорость 
+    - Суперспособности включают Скорость
+  anonymous:
+    name: Anonymous
+    description:
+    - All player names are distorted.
+  gone_fishing:
+    name: Gone Fishing
+    description:
+    - At the beginning of the game everyone gets a lure 3 luck of the sea 3 rod.
+  infinite_enchants:
+    name: Infinite Enchants
+    description:
+    - At the beginning of the game everyone gets 64 enchantment tables, anvils, lapis
+      blocks and a lot of XP.
+  children_left_unattended:
+    name: Children Left Unattended
+    description:
+    - When a teammate dies you receive a speed potion and a tamed wolf.
+  silent_night:
+    name: Silent Night
+    description:
+    - At night death messages, name tags, and chat are disabled.
+    error: '&4[Silent Night] &cSilent Night is enabled'
+  permakill:
+    name: PermaKill
+    description:
+    - When a player dies, it toggles perma day/night.
+  weakest_link:
+    name: Weakest Link
+    description:
+    - Every 10 minutes the person with the least health will perish.
+    - If everyone is at the same health no one will die.
+    kill: '&4[Weakest Link] &c%player% has been killed!'
+  eggs:
+    name: Eggs
+    description:
+    - When you throw an egg, a random mob will spawn where it lands.
+    - This includes enderdragons and withers.
+    - When you kill a chicken, there is a 5% chance of it dropping an egg.
+  no_going_back:
+    name: No Going Back
+    description:
+    - Once you go through a nether portal in the overworld, you can't go back to the
+      overworld.
+    error: '&4[No Going Back] &cYou are stuck in the nether!'
+  double_dates:
+    name: Double Dates
+    description:
+    - Players join with a chosen team and are combined randomly with another team.
+  fly_high:
+    name: Fly High
+    description:
+    - Players spawn with a elytra.
+  randomized_drops:
+    name: Randomized Drops
+    description:
+    - Every block broken will drop random items.
+  upside_down_crafting:
+    name: Upside Down Crafting
+    description:
+    - This scenario flips all crafts upside down.
+  randomized_crafts:
+    name: Randomized Crafts
+    description:
+    - This scenario randomizes the results of all crafts.
+  monsters_inc:
+    name: Monsters Inc.
+    description:
+    - In this scenario all doors are linked as portals.
+    error: '&4[Monsters Inc.] &cStop that!'
+  achievement_hunter:
+    name: Achievement Hunter
+    description:
+    - Players start with 5 hearts.
+    - For every achievement/advancement, players get a half heart of health.
+  nine_slots:
+    name: Nine Slots
+    description:
+    - You can only use your hotbar to hold items.
+  nether_start:
+    name: Nether Start
+    description:
+    - You start the game in the nether.

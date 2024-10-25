@@ -7,12 +7,14 @@ services:
     ports:
       - "25565:25565"
       - "25575:25575"
+      - "25566:8123"
     environment:
       EULA: "TRUE"
       TYPE: PAPER
       MC_VERSION: "1.20.5"
     volumes:
       - mc-data:/papermc/
+      # - ./server/plugins:/papermc/plugins/
 
 
 volumes:
