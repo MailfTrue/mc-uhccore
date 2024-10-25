@@ -451,7 +451,7 @@ border:
   moving: true
 
   #Starting size of the border (500 means +500x, -500x, +500z, -500z)
-  start-size: 1500
+  start-size: 500
 
   #End size of the border (200means +200x, -200x, +200z, -200z)
   end-size: 200
