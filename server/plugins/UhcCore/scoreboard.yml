@@ -54,6 +54,7 @@ waiting:
 # Scoreboard while game is playing.
 playing:
   - '&6Meetup: &a%deathmatch%'
+  - '&6%timer-name%: &a%timer-time%'
   - '&6Border: &a%border%'
   - '&6Kills: &a%kills%'
   - '&6Players left: &a%alive%'
@@ -75,6 +76,7 @@ deathmatch:
 # Scoreboard while in spectator
 spectating:
   - '&6Meetup: &a%deathmatch%'
+  - '&6%timer-name%: &a%timer-time%'
   - '&6Border: &a%border%'
   - '&6Kills: &a%kills%'
   - '&6Players left: &a%alive%'
