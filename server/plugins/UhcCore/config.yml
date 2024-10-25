@@ -451,24 +451,24 @@ border:
   moving: true
 
   #Starting size of the border (500 means +500x, -500x, +500z, -500z)
-  start-size: 100
+  start-size: 1500
 
   #End size of the border (200means +200x, -200x, +200z, -200z)
-  end-size: 20
+  end-size: 200
 
   #If moving is set to true, the time in seconds for the border to shrink to end-size
-  time-to-shrink: 300
+  time-to-shrink: 7200
 
   #If moving is set to true, the time in seconds for the border before it starts moving
-  time-before-shrink: 0
+  time-before-shrink: 1800
 
 
 # Setting up the deathmatch
 deathmatch:
   # Set it to false to make an endless game until one team wins
-  enable: false
+  enable: true
   # The time in seconds before the deathmatch starts
-  delay: 3600
+  delay: 9000
   # The time in seconds before PvP is enabled and players are released after the deathmatch starts
   pvp-delay: 30
   # Set it to true if you want players in deathmatch to be in adventure mode. (false = survival mode)
@@ -477,9 +477,9 @@ deathmatch:
   # Force end the deathmatch when no players died for a certain time.
   force-end:
     # Set to true to enable force ending.
-    enable: false
+    enable: true
     # Time in seconds before force ending after last kill.
-    delay: 120
+    delay: 300
 
   # To end with a deathmatch arena, you must have WorldEdit installed and your arena.schematic file inside plugins/UhcCore
   arena-deathmatch:
