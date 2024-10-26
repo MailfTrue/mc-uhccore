@@ -468,7 +468,7 @@ deathmatch:
   # Set it to false to make an endless game until one team wins
   enable: true
   # The time in seconds before the deathmatch starts
-  delay: 9000
+  delay: 10800
   # The time in seconds before PvP is enabled and players are released after the deathmatch starts
   pvp-delay: 30
   # Set it to true if you want players in deathmatch to be in adventure mode. (false = survival mode)
@@ -554,9 +554,9 @@ bungee-support:
 custom-events:
   #Reward a player a price in your economy currency every time he is still alive after the interval (in seconds)
   time:
-    enable: false
+    enable: true
     # Amount of money the player should get (Set to 0 for no money reward)
-    reward: 100
+    reward: 0
     # Enter a list of commands that should be executed instead (Change to commands: [] if you do not want any commands to be executed.)
     commands:
       - 'msg %name% Congratulation you survived!'
@@ -567,7 +567,7 @@ custom-events:
   kill:
     enable: false
     # Amount of money the player should get (Set to 0 for no money reward)
-    reward: 500
+    reward: 0
     # Enter a list of commands that should be executed instead (Change to commands: [] if you do not want any commands to be executed.)
     commands:
       - 'msg %name% You got a kill!'
@@ -575,7 +575,7 @@ custom-events:
   #Reward a price in your economy currency to the winners of the game
   win:
     enable: false
-    reward: 1000
+    reward: 0
     commands:
       - 'msg %name% You won the game!'
       - 'give %name% diamond 128'
