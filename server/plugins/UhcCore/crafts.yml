@@ -33,11 +33,11 @@ custom-crafts:
    revive-with-inventory: true
    limit: -1
 
-  'End portal':
+  'Portal to end':
     '1': '{"type":"ENDER_EYE"} {"type":"ENDER_EYE"} {"type":"ENDER_EYE"}'
     '2': '{"type":"ENDER_EYE"} {"type":"ENDER_EYE"} {"type":"ENDER_EYE"}'
     '3': '{"type":"ENDER_EYE"} {"type":"ENDER_EYE"} {"type":"ENDER_EYE"}'
-    craft: '{"type":"END_PORTAL"}'
+    craft: '{"type":"END_PORTAL_FRAME"}'
     default-name: true
     limit: -1 
 
@@ -48,6 +48,7 @@ custom-crafts:
     craft: '{"type":"IRON_AXE","enchantments":[{"type":"DAMAGE_ALL","level":2},{"type":"FIRE_ASPECT","level":1}]}'
     default-name: false
     limit: 1
+
 
 #A list of items that you don't want players to be able to craft
 # Please respect the json-item syntax! (You can use the /iteminfo command to generate this syntax.)
